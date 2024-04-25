@@ -1,0 +1,28 @@
+**Energy Solutions Data Analysis Report**
+**Abraham Dagne**
+
+**Introduction:**
+The aim of this data analysis report is to analyze energy-related datasets from three different countries: Benin, Sierra Leone, and Togo. The datasets contain information on various energy parameters such as Global Horizontal Irradiance (GHI), Ambient Temperature (Tamb), and Cleaning events. The analysis includes data loading, exploratory data analysis (EDA), visualization, handling missing values, data cleaning, and outlier detection.
+
+**Data Loading:**
+The datasets for each country were loaded using pandas `read_csv()` function. Each dataset was stored in a pandas DataFrame for further analysis.
+
+**Exploratory Data Analysis (EDA):**
+For each dataset, EDA was performed to gain insights into the data. This included:
+- Displaying the first few rows of the dataset to understand its structure.
+- Computing summary statistics such as mean, median, standard deviation, etc., to understand the distribution of variables.
+- Identifying missing values and exploring their distribution in the dataset.
+
+**Data Visualization:**
+Various visualizations were created to explore the distribution of key variables and understand the relationship between different parameters. This included:
+- Histograms to visualize the distribution of GHI and Tamb.
+- Boxplots to analyze the effect of cleaning events on GHI and Tamb.
+
+**Data Cleaning:**
+Missing values were handled by dropping rows with missing values and filtering out rows with negative GHI values. Additional data cleaning steps were performed as needed.
+
+**Outlier Detection:**
+Outliers were detected using the z-score method. Any data points with z-scores greater than 3 were considered outliers and removed from the dataset.
+
+**Conclusion:**
+The analysis provided valuable insights into the energy datasets from Benin, Sierra Leone, and Togo. By performing EDA, visualizations, data cleaning, and outlier detection, we gained a better understanding of the data quality and distribution of key parameters. This information can be used to make informed decisions and develop energy solutions tailored to each country's specific needs.
